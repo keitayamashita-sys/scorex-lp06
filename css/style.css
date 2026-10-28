@@ -622,3 +622,17 @@ input:focus,select:focus{border-color:var(--red) !important;}
 /* 対象者の枠：白背景 */
 .fv .fv-for>span{background:#fff;color:var(--ink);border-left-color:var(--red-deep);}
 .fv .fv-for b{color:var(--red);}
+
+/* FVはキャンペーン＋CTAまで。画面いっぱいに余白をとって配置 */
+.fv{min-height:calc(100svh - 64px);display:flex;flex-direction:column;justify-content:center;padding:36px 20px 40px;}
+.fv .fv-for{margin-bottom:26px;}
+.fv .fv-pre{margin-bottom:4px;}
+.fv-price{margin-top:22px;}
+.fv .camp{margin-top:36px;}
+.fv .cta-note{margin-top:14px;}
+/* FV直下：資料ダウンロード（グレー背景で区切る） */
+.fv-next{padding:56px 20px 56px;color:var(--ink);}
+.fv-next .fv-form{margin-top:0;}
+.fv-next .ind{margin-top:48px;}
+.fv-next .ind-ttl{color:var(--ink);}
+.fv{min-height:min(calc(100svh - 64px),760px);}
