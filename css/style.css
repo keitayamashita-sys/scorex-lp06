@@ -600,3 +600,8 @@ input:focus,select:focus{border-color:var(--red) !important;}
 .fv .fv-top{margin-bottom:18px;}
 .fv .bubble b{margin-right:0;}
 .fv .fv-pre{font-size:17px;margin-bottom:2px;}
+/* FV上部の対象者文言を大きく */
+.fv .fv-for{font-size:min(19px,5vw);font-weight:900;letter-spacing:.02em;opacity:1;margin-bottom:18px;}
+.fv .fv-for::before{width:18px;height:3px;flex:none;}
+/* メインコピー1行 */
+.fv-copy1{white-space:nowrap;font-size:min(34px,7.6vw);}
