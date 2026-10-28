@@ -619,3 +619,6 @@ input:focus,select:focus{border-color:var(--red) !important;}
 .fv-know-g li{background:#fff;color:var(--ink);text-align:center;padding:12px 4px 10px;}
 .fv-know-g b{display:block;color:var(--red);font-weight:900;font-size:min(18px,4.6vw);line-height:1.2;margin-bottom:5px;}
 .fv-know-g span{display:block;font-size:11px;font-weight:500;line-height:1.5;color:#555;}
+/* 対象者の枠：白背景 */
+.fv .fv-for>span{background:#fff;color:var(--ink);border-left-color:var(--red-deep);}
+.fv .fv-for b{color:var(--red);}
