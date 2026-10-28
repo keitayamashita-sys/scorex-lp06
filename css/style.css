@@ -622,3 +622,9 @@ input:focus,select:focus{border-color:var(--red) !important;}
 /* 対象者の枠：白背景 */
 .fv .fv-for>span{background:#fff;color:var(--ink);border-left-color:var(--red-deep);}
 .fv .fv-for b{color:var(--red);}
+
+/* FV：対象者を経営者の声（吹き出し）で */
+.fv-voice{margin-bottom:18px;}
+.fv-voice .bub{position:relative;display:inline-block;background:#fff;color:var(--red);font-weight:900;font-size:min(19px,5vw);padding:10px 20px;border-radius:999px;box-shadow:0 8px 20px rgba(90,5,0,.3);}
+.fv-voice .bub::after{content:"";position:absolute;left:28px;bottom:-10px;border-left:8px solid transparent;border-right:8px solid transparent;border-top:11px solid #fff;}
+.fv-voice .who{margin-top:14px;font-weight:700;font-size:14px;opacity:.95;}
