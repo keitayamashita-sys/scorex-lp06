@@ -598,3 +598,5 @@ input:focus,select:focus{border-color:var(--red) !important;}
 .fv-for::before{content:"";width:22px;height:2px;background:#fff;}
 .fv .fv-for{margin-bottom:16px;}
 .fv .fv-top{margin-bottom:18px;}
+.fv .bubble b{margin-right:0;}
+.fv .fv-pre{font-size:17px;margin-bottom:2px;}
