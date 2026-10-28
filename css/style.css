@@ -636,3 +636,9 @@ input:focus,select:focus{border-color:var(--red) !important;}
 .fv-next .ind{margin-top:48px;}
 .fv-next .ind-ttl{color:var(--ink);}
 .fv{min-height:min(calc(100svh - 64px),760px);}
+/* 対象者の枠：グレー背景 */
+.fv .fv-for>span{background:#e8e5e1;color:#3a3a3a;border-left-color:var(--ink);}
+.fv .fv-for b{color:var(--red-deep);}
+/* 対象者の枠：ヘッダーと同じ背景色 */
+.fv .fv-for>span{background:#222;color:#fff;border-left-color:var(--red);}
+.fv .fv-for b{color:#ff8a3d;}
