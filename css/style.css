@@ -605,3 +605,17 @@ input:focus,select:focus{border-color:var(--red) !important;}
 .fv .fv-for::before{width:18px;height:3px;flex:none;}
 /* メインコピー1行 */
 .fv-copy1{white-space:nowrap;font-size:min(34px,7.6vw);}
+
+/* FV整理：対象者を独立した枠に */
+.fv .fv-for{display:block;margin:0 0 22px;font-size:min(17px,4.5vw);font-weight:900;letter-spacing:.02em;opacity:1;}
+.fv .fv-for::before{content:none;}
+.fv .fv-for>span{display:inline-block;background:var(--ink);color:#fff;padding:9px 16px 10px;border-left:5px solid #fff;box-shadow:6px 6px 0 rgba(0,0,0,.18);}
+.fv .fv-for b{color:#ff8a3d;}
+/* FV：商談前にわかること（キャンペーン下） */
+.fv-know{margin-top:22px;border:2px solid rgba(255,255,255,.85);background:rgba(0,0,0,.14);padding:16px 12px 14px;}
+.fv-know-t{text-align:center;font-weight:700;font-size:15px;margin-bottom:12px;}
+.fv-know-t b{font-weight:900;border-bottom:3px solid #ff8a3d;}
+.fv-know-g{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;list-style:none;}
+.fv-know-g li{background:#fff;color:var(--ink);text-align:center;padding:12px 4px 10px;}
+.fv-know-g b{display:block;color:var(--red);font-weight:900;font-size:min(18px,4.6vw);line-height:1.2;margin-bottom:5px;}
+.fv-know-g span{display:block;font-size:11px;font-weight:500;line-height:1.5;color:#555;}
